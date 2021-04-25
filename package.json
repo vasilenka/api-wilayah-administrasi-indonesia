@@ -65,8 +65,5 @@
       "dist/"
     ],
     "restoreMocks": true
-  },
-  "engines": {
-    "node": "13.11.0"
   }
 }
