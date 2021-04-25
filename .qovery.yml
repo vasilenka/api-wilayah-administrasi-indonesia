@@ -1,12 +1,11 @@
 ---
 application:
-  name: 'api-wilayah-administrasi-indonesia'
-  project: 'wilayah-administrasi-indonesia'
-  organization: 'QoveryCommunity'
-  dockerfile: /Dockerfile
+  name: "api-wilayah-administrasi-indonesia"
+  project: "wilayah-administrasi-indonesia"
+  organization: "QoveryCommunity"
 routers:
-  - name: 'main-api-wilayah-administrasi-indonesia'
-    routes:
-      - application_name: 'api-wilayah-administrasi-indonesia'
-        paths:
-          - '/*'
+- name: "main-api-wilayah-administrasi-indonesia"
+  routes:
+  - application_name: "api-wilayah-administrasi-indonesia"
+    paths:
+    - "/*"
