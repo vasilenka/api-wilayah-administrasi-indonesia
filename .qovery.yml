@@ -3,6 +3,7 @@ application:
   name: "api-wilayah-administrasi-indonesia"
   project: "wilayah-administrasi-indonesia"
   organization: "QoveryCommunity"
+  publicly_accessible: true
 routers:
 - name: "main-api-wilayah-administrasi-indonesia"
   routes:
