@@ -41,8 +41,6 @@ app.use('/kel', require('./resources/village/village.router'))
 app.use('/desa', require('./resources/village/village.router'))
 app.use('/village', require('./resources/village/village.router'))
 
-console.log({ URL: process.env })
-
 export const start = async () => {
   try {
     await connect()

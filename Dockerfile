@@ -1,8 +1,12 @@
-FROM node:13-alpine
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+FROM mhart/alpine-node
+
+WORKDIR /app
+
 COPY . .
-RUN npm install
-RUN npm run build
+
+RUN yarn install
+RUN yarn build
+
 EXPOSE 3000
-RUN npm start
+
+CMD ["yarn", "start"]
