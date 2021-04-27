@@ -16,6 +16,6 @@ Routes | Description
 ------------ | ------------
 `/prov` | Get All Provinces
 `/kab` | Get All Kabupaten & Kota
-`/prov/\[PROV_ID]` | Get Province's data and all Kab/Kota in the Province
-`/kab/\[KABUPATEN_ID/KOTA_ID]` | Get Kab/Kota's data and all Kecamatan in the Kab/Kota
-`/kec/\[KECAMATAN_ID]` | Get Kecamatan's data and all Kelurahan/Desa in the Kecamatan
+`/prov/[PROV_ID]` | Get Province's data and all Kab/Kota in the Province
+`/kab/[KABUPATEN_ID/KOTA_ID]` | Get Kab/Kota's data and all Kecamatan in the Kab/Kota
+`/kec/[KECAMATAN_ID]` | Get Kecamatan's data and all Kelurahan/Desa in the Kecamatan
